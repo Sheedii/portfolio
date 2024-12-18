@@ -44,7 +44,7 @@ const Hero = () => {
             <p className="text-start mt-5 md:tracking-wider mb-4 text-sm md:text-xl lg:text-2xl">
               <span className="text-sm md:text-4xl lg:text-5xl font-bold"
                 style={{ fontFamily: "'Poppins', sans-serif" }}>Chadi Amara Nebli</span>
-              <br /> <span className="pl-[20px]"> Software engineer </span> <br/>
+              <br /> <span className=" pl-[4px] lg:pl-[20px]"> Software engineer </span> <br/>
               <span className="flex flex-row items-center justify-start gap-5 p-2 pl-[40px]">
                 {socialMedia.map((info) => (
                   <a
