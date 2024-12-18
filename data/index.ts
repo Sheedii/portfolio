@@ -48,7 +48,7 @@ export const projects = [
     title: "RetailVision",
     des: "This is the updated version of my end of studies project",
     img: "updated.png",
-    iconLists: ["/re.svg","/js.svg", "/django.svg",  "/mysql.svg"],
+    iconLists: ["re.svg","js.svg", "django.svg",  "mysql.svg"],
     link: "https://github.com/Sheedii/RetailVision",
   },
   {
@@ -56,7 +56,7 @@ export const projects = [
     title: "End of study project",
     des: " a system that help retailers analyze sales trends and customer behavior.",
     img: "EndOfStudies2.png",
-    iconLists: ["/re.svg", "/js.svg", "/spring.png", "/mongodb.svg"],
+    iconLists: ["re.svg", "js.svg", "spring.png", "mongodb.svg"],
     link: "https://github.com/Sheedii/End-of-study-project",
   },
   {
@@ -64,7 +64,7 @@ export const projects = [
     title: "Online flight booking",
     des: "TCP Server-Client and Multi-threaded Socket Programming in Python",
     img: "server.png",
-    iconLists: ["/python.svg", "/tcp.png", "/mlt.png"],
+    iconLists: ["python.svg", "tcp.png", "mlt.png"],
     link: "https://github.com/Sheedii/RESERVATION-DES-VOLS-EN-LIGNES",
   },
   {
@@ -72,7 +72,7 @@ export const projects = [
     title: "platform of Forum Enicar",
     des: "The web platform enables interaction between students, companies, and administration.",
     img: "frm.png",
-    iconLists: ["/re.svg", "/js.svg", "/spring.png", "/mysql.svg"],
+    iconLists: ["re.svg", "js.svg", "spring.png", "mysql.svg"],
     link: "https://github.com/Sheedii/forumwebproject",
   },
 ];
