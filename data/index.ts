@@ -147,7 +147,7 @@ export const workExperience = [
     desc: "Nvidia",
     url: "https://learn.nvidia.com/certificates?id=JjTV1aKFQEy84y4A2TIHxg",
     className: "md:col-span-2",
-    thumbnail: "/Nvidia.png",
+    thumbnail: "Nvidia.png",
   },
   {
     id: 5,
