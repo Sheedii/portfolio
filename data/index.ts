@@ -15,7 +15,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-2 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b52.svg",
+    img: "b52.svg",
     spareImg: "",
   },
 
@@ -47,7 +47,7 @@ export const projects = [
     id: 1,
     title: "RetailVision",
     des: "This is the updated version of my end of studies project",
-    img: "/updated.png",
+    img: "updated.png",
     iconLists: ["/re.svg","/js.svg", "/django.svg",  "/mysql.svg"],
     link: "https://github.com/Sheedii/RetailVision",
   },
@@ -55,7 +55,7 @@ export const projects = [
     id: 2,
     title: "End of study project",
     des: " a system that help retailers analyze sales trends and customer behavior.",
-    img: "/EndOfStudies2.png",
+    img: "EndOfStudies2.png",
     iconLists: ["/re.svg", "/js.svg", "/spring.png", "/mongodb.svg"],
     link: "https://github.com/Sheedii/End-of-study-project",
   },
@@ -63,7 +63,7 @@ export const projects = [
     id: 3,
     title: "Online flight booking",
     des: "TCP Server-Client and Multi-threaded Socket Programming in Python",
-    img: "/server.png",
+    img: "server.png",
     iconLists: ["/python.svg", "/tcp.png", "/mlt.png"],
     link: "https://github.com/Sheedii/RESERVATION-DES-VOLS-EN-LIGNES",
   },
@@ -71,7 +71,7 @@ export const projects = [
     id: 4,
     title: "platform of Forum Enicar",
     des: "The web platform enables interaction between students, companies, and administration.",
-    img: "/frm.png",
+    img: "frm.png",
     iconLists: ["/re.svg", "/js.svg", "/spring.png", "/mysql.svg"],
     link: "https://github.com/Sheedii/forumwebproject",
   },
@@ -99,7 +99,7 @@ export const testimonials = [
       '• Built interactive dashboards featuring comparative and correlation tables.',
     name: "WiseVision AI Technologies",
     title: "Software Engineer Intern",
-    img: "/logo.svg",
+    img: "logo.svg",
     period:"02/2024 - 06/2024",
   },
   {
@@ -111,43 +111,11 @@ export const testimonials = [
       '• Developed a PDF generator for automated invoice creation.',
     name: "CAPIT",
     title: "Software Developer",
-    img: "/capit.png",
+    img: "capit.png",
     period:"06/2023 - 08/2023",
   },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
 
 export const workExperience = [
   {
@@ -156,7 +124,7 @@ export const workExperience = [
     desc: "Free Code Camp",
     url: "https://www.freecodecamp.org/certification/Chadi_Amara_Nebli/javascript-algorithms-and-data-structures",
     className: "md:col-span-2",
-    thumbnail: "/freecodecamp.png",
+    thumbnail: "freecodecamp.png",
   },
   {
     id: 2,
@@ -164,7 +132,7 @@ export const workExperience = [
     desc: "Coursera",
     url: "https://coursera.org/share/b1c69d7ce55be3bbde11b83a87ec0927",
     className: "md:col-span-2",
-    thumbnail: "/coursera.png",
+    thumbnail: "coursera.png",
   },
   {
     id: 3,
@@ -172,7 +140,7 @@ export const workExperience = [
     desc: "Coursera",
     url: "https://coursera.org/share/115f076a7a71f3fddd30a54bf39cda57",
     className: "md:col-span-2",
-    thumbnail: "/coursera.png",
+    thumbnail: "coursera.png",
   },
   {
     id: 4,
@@ -188,7 +156,7 @@ export const workExperience = [
     desc: "Nvidia",
     url: "https://learn.nvidia.com/certificates?id=gF35DvQoS3KxKMjYBeFNzQ",
     className: "md:col-span-2",
-    thumbnail: "/Nvidia.png",
+    thumbnail: "Nvidia.png",
   },
   {
     id: 6,
@@ -196,7 +164,7 @@ export const workExperience = [
     desc: "Nvidia",
     url: "https://learn.nvidia.com/certificates?id=WC_r2kEdS8yrhe1ABY9CDQ",
     className: "md:col-span-2",
-    thumbnail: "/Nvidia.png",
+    thumbnail: "Nvidia.png",
   },
 
 ];
@@ -204,12 +172,12 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "git.svg",
     url:"https://github.com/Sheedii",
   },
   {
     id: 2,
-    img: "/link.svg",
+    img: "link.svg",
     url:"https://www.linkedin.com/in/chadi-amara-nebli/",
   },
 ];
