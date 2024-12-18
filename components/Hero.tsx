@@ -40,7 +40,7 @@ const Hero = () => {
           />
 
           <div className="flex flex-row items-center justify-center gap-4">
-            <img className="w-[14%] border-[solid] border-[white] border-[2px] rounded-[50%]" src="/shedipdp2.png" alt="Chadi's Picture" />
+            <img className="w-[14%] border-[solid] border-[white] border-[2px] rounded-[50%]" src="shedipdp2.png" alt="Chadi's Picture" />
             <p className="text-start mt-5 md:tracking-wider mb-4 text-sm md:text-xl lg:text-2xl">
               <span className="text-sm md:text-4xl lg:text-5xl font-bold"
                 style={{ fontFamily: "'Poppins', sans-serif" }}>Chadi Amara Nebli</span>
