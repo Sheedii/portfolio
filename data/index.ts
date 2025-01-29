@@ -87,7 +87,7 @@ export const testimonials = [
     name: "WiseVision AI Technologies",
     title: " Software Engineer",
     img: "logo.svg",
-    period:"07/2024 - 10/2024",
+    period:"07/2024 - 12/2024",
   },
   {
     quote:
