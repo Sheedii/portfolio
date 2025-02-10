@@ -1,5 +1,6 @@
 "use client";
 
+import Head from "next/head";
 import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";
