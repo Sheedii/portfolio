@@ -20,6 +20,17 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head >
         <link className="rounded-[50%]" rel="icon" href="./shedipdp2.png" sizes="any" />
+
+        {/* ✅ Open Graph Meta Tags for Social Previews */}
+        <meta property="og:title" content="Chadi Amara Nebli - Portfolio" />
+        <meta property="og:description" content="Portfolio showcasing my work and skills." />
+        <meta property="og:url" content="https://sheedii.github.io/portfolio/" />
+        <meta property="og:type" content="website" />
+
+        {/* ✅ Twitter Card for Twitter Previews */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Chadi Amara Nebli - Portfolio" />
+        <meta name="twitter:description" content="Explore my projects and skills as a FullStack Software Engineer." />
       </head>
       <body className={inter.className}>
         <ThemeProvider 
