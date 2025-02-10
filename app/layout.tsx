@@ -7,8 +7,29 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Chadi Amara Nebli",
-  description: "Modern & Minimal Portfolio",
+  title: "Chadi Amara Nebli - Portfolio",
+  description: "Modern & Minimal Portfolio showcasing my work and skills.",
+  openGraph: {
+    title: "Chadi Amara Nebli - Portfolio",
+    description: "Discover my projects and skills as a FullStack Software Engineer.",
+    url: "https://sheedii.github.io/portfolio/",
+    siteName: "Chadi's Portfolio",
+    images: [
+      {
+        url: "https://your-image-url.com/preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Portfolio Preview",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Chadi Amara Nebli - Portfolio",
+    description: "Explore my projects and experience as a FullStack Software Engineer.",
+    images: ["https://your-image-url.com/preview.png"],
+  },
 };
 
 export default function RootLayout({
@@ -18,20 +39,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head >
-        <link className="rounded-[50%]" rel="icon" href="./shedipdp2.png" sizes="any" />
-
-        {/* ✅ Open Graph Meta Tags for Social Previews */}
-        <meta property="og:title" content="Chadi Amara Nebli - Portfolio" />
-        <meta property="og:description" content="Portfolio showcasing my work and skills." />
-        <meta property="og:url" content="https://sheedii.github.io/portfolio/" />
-        <meta property="og:type" content="website" />
-
-        {/* ✅ Twitter Card for Twitter Previews */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Chadi Amara Nebli - Portfolio" />
-        <meta name="twitter:description" content="Explore my projects and skills as a FullStack Software Engineer." />
-      </head>
       <body className={inter.className}>
         <ThemeProvider 
           attribute="class"
